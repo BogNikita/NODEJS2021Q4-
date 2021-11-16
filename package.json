@@ -1,0 +1,24 @@
+{
+  "name": "ciperingcli",
+  "version": "1.0.0",
+  "description": "NODEJS2021Q4",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BogNikita/NODEJS2021Q4-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BogNikita/NODEJS2021Q4-/issues"
+  },
+  "homepage": "https://github.com/BogNikita/NODEJS2021Q4-#readme",
+  "dependencies": {
+    "jest": "^27.3.1"
+  }
+}
