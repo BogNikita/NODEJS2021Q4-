@@ -3,10 +3,7 @@ const cipheringAtbash = require('../cipheringAtbash');
 
 const MOCK_DATA_UPPER_CASE = 'A';
 const MOCK_DATA_LOWER_CASE = 'a';
-
-
 const MOCK_DATA_SYMBOLS = '1'
-
 const MOCK_DATA_RU = 'Й'
 
 describe('cipheringAtbash', () => {
