@@ -1,3 +1,5 @@
+const ValidationError = require("./customError");
+
 function checkDuplicate(arr) {
   const obj = arr.reduce((acc, item) => {
     if (item.includes('--')) {
@@ -9,7 +11,10 @@ function checkDuplicate(arr) {
     return acc;
   }, {});
   const result = Object.values(obj).some((el) => el > 0);
-  return result;
+  if (result) {
+    throw new ValidationError('Config includes Duplicate')
+  }
+  return true;
 }
 
 module.exports = checkDuplicate;

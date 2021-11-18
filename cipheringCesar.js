@@ -1,6 +1,6 @@
 function encode(char) {
   if (
-    (char.charCodeAt() > 65 && char.charCodeAt() < 90) ||
+    (char.charCodeAt() > 64 && char.charCodeAt() < 90) ||
     (char.charCodeAt() > 96 && char.charCodeAt() < 122)
   ) {
     return String.fromCharCode(char.charCodeAt() + 1);
