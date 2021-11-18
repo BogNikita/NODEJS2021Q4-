@@ -13,5 +13,4 @@ describe('checkDuplicate', () => {
   test('should show error message', () => {
     expect(() => checkDuplicate(ARG_WITH_DUPL)).toThrowError(new Error('Config includes Duplicate'));
   });
-
 });
